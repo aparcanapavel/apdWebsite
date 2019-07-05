@@ -1,0 +1,576 @@
+*{
+  overflow: hidden;
+}
+#banner
+{
+  position: relative;
+  width: 100%;
+  height: 500px;
+  overflow: hidden;
+  z-index: -1;
+  margin-top:10px;
+  color: rgb(245,231,235);
+}
+#banner > img
+{
+  width: 126%;
+  position: relative;
+  right: 100px;
+  bottom: 20px;
+  z-index: -1;
+}
+#banner > h1
+{
+  z-index:1;
+  color: rgba(232,232,232,1);
+  position: absolute;
+  bottom:0px;
+  right: 40px;
+  font-size: 45px;
+}
+
+#brotherhood
+{
+  /* background-color: gray; */
+  display: block;
+  width: 100%;
+  padding-top: 30px;
+}
+#SilvisAdrian
+{
+  width: 100%;
+  overflow: hidden;
+  display: block;
+}
+#imgNcap
+{
+  display: inline-block;
+  width: 30%;
+  overflow: hidden;
+  margin-left: 10px;
+  text-align: center;
+}
+#imgNcap > img
+{
+    width: 170px;
+    border-radius: 25px;
+    overflow: hidden;
+    border: 1px solid rgb(121,0,201);
+}
+#SilvisAdrian > p
+{
+  display: inline-block;
+  width: 60%;
+  float:right;
+  font-size: 18px;
+  font-family: sans-serif;
+  padding-top: 5%;
+  margin-right: 50px;
+  overflow-x: hidden;
+}
+#broshow
+{
+  margin: auto;
+  width: 550px;
+  margin-bottom: 0px;
+}
+#broshow > img
+{
+  width: 100%;
+}
+.horizontalLine
+{
+    background-color: rgb(121,0,201);
+    height: 1px;
+    width: 90%;
+}
+.pageTitle
+{
+  color: rgb(121,0,201);
+  font-size: 35px;
+  text-align: center;
+  font-weight: bold;
+  text-transform: uppercase;
+  display: block;
+}
+#KielyAdam
+{
+  width: 100%;
+  overflow: hidden;
+  display: block;
+}
+#imgNcap2
+{
+  display: inline-block;
+  width: 30%;
+  overflow: hidden;
+  margin-left: 10px;
+  text-align: center;
+}
+#imgNcap2 > img
+{
+    width: 170px;
+    border-radius: 25px;
+    overflow: hidden;
+    border: 1px solid rgb(121,0,201);
+}
+#KielyAdam > p
+{
+  display: inline-block;
+  width: 60%;
+  float:left;
+  font-size: 18px;
+  font-family: sans-serif;
+  padding-top: 4%;
+  padding-left: 40px;
+}
+#philShow
+{
+  margin: auto;
+  width: 550px;
+  padding-bottom: 10px;
+}
+#philShow > img{
+  width: 100%;
+}
+
+
+
+
+
+
+
+@media all and (max-width: 750px)
+{
+  #banner
+  {
+    width: 100%;
+    height: 400px;
+    overflow: hidden;
+    z-index: -1;
+    color: rgb(245,231,235);
+  }
+  #broshow
+  {
+    margin: auto;
+    width: 70%;
+    height: 320px;
+  }
+  #philShow
+  {
+    margin: auto;
+    width: 70%;
+    padding-bottom: 10%;
+  }
+  #SilvisAdrian
+  {
+    width: 100%;
+    overflow: hidden;
+    display: block;
+  }
+  #imgNcap
+  {
+    display: inline-block;
+    width: 30%;
+    overflow: hidden;
+    margin-left: 10px;
+    text-align: center;
+  }
+  #imgNcap > img
+  {
+      width: 170px;
+      border-radius: 25px;
+      overflow: hidden;
+      border: 1px solid rgb(121,0,201);
+  }
+  #SilvisAdrian > p
+  {
+    display: inline-block;
+    width: 60%;
+    float:right;
+    font-size: 18px;
+    font-family: sans-serif;
+    padding-top: 5%;
+    margin-right: 40px;
+    overflow-x: hidden;
+  }
+}
+
+
+
+
+
+
+
+@media all and (max-width: 630px)
+{
+  #banner
+  {
+    width: 100%;
+    height: 380px;
+  }
+  #banner > img
+  {
+    width: 130%;
+    position: relative;
+    right: 90px;
+    bottom: 0px;
+    z-index: -1;
+  }
+  #banner > h1
+  {
+    z-index:1;
+    position: absolute;
+    font-size: 35px;
+  }
+  #SilvisAdrian
+  {
+    width: 100%;
+    overflow-x: hidden;
+    display: block;
+  }
+
+  #imgNcap
+  {
+    display: inline-block;
+    width: 30%;
+    overflow: hidden;
+    margin-left: 10px;
+    text-align: center;
+    padding-top: 30px;
+    /* font size to 12 */
+    font-size: 12px;
+  }
+  #imgNcap > img
+  {
+    width: 100px;
+    border-radius: 25px;
+    overflow: hidden;
+    border: 1px solid rgb(121,0,201);
+  }
+  #SilvisAdrian > p
+  {
+    display: inline-block;
+    width: 60%;
+    float:right;
+    font-size: 16px;
+    font-family: sans-serif;
+    padding-top: 10px;
+    margin-right: 15px;
+  }
+  #KielyAdam
+  {
+    width: 100%;
+    overflow: hidden;
+    display: block;
+  }
+  #imgNcap2
+  {
+    display: inline-block;
+    width: 30%;
+    overflow: hidden;
+    margin-left: 10px;
+    text-align: center;
+    padding-top: 50px;
+    /* font size to 12 */
+    font-size: 12px;
+  }
+  #imgNcap2 > img
+  {
+    width: 100px;
+    border-radius: 25px;
+    overflow: hidden;
+    border: 1px solid rgb(121,0,201);
+  }
+  #KielyAdam > p
+  {
+    display: inline-block;
+    width: 60%;
+    float:left;
+    font-size: 16px;
+    font-family: sans-serif;
+    padding-top: 30px;
+    padding-left: 40px;
+  }
+  #broshow
+  {
+    margin: auto;
+    width: 70%;
+    height: 100%;
+  }
+  #philShow
+  {
+    margin: auto;
+    width: 70%;
+    padding-bottom: 10px;
+  }
+}
+
+
+
+
+
+
+
+
+
+@media all and (max-width: 550px)
+{
+  #banner
+  {
+    height: 300px;
+    display: block;
+    margin-top: 10px;
+  }
+  #banner > img
+  {
+    width: 130%;
+    position: relative;
+    right: 80px;
+    bottom: 0px;
+    z-index: -1;
+  }
+  #banner > h1
+  {
+    bottom: 0px;
+    right: 30px;
+    font-size: 30px;
+  }
+  #imgNcap > h2,
+  #imgNcap2 > h2
+  {
+    font-size: 18px;
+  }
+  #imgNcap > h3,
+  #imgNcap2 > h3
+  {
+    font-size: 13px;
+  }
+  #SilvisAdrian > p
+  {
+    display: inline-block;
+    width: 60%;
+    font-size: 16px;
+    padding-top: 40px;
+    padding-right: 15px;
+  }
+  #KielyAdam > p
+  {
+    display: inline-block;
+    width: 60%;
+    font-size: 16px;
+    padding-top: 20px;
+    padding-left: 30px;
+  }
+}
+
+
+
+
+
+
+
+
+
+@media all and (max-width: 500px)
+{
+  #banner
+  {
+    height: 250px;
+    display: block;
+    margin-top: 10px;
+  }
+  #banner > img
+  {
+    width: 135%;
+    position: relative;
+    right: 60px;
+    bottom: 10px;
+    z-index: -1;
+  }
+  #banner > h1
+  {
+    font-size: 27px;
+  }
+  #imgNcap
+  {
+    display: block;
+    width: 100%;
+    overflow: hidden;
+    margin-top: 0px;
+    margin-left: 0px;
+    text-align: center;
+    font-size: 12px;
+    padding-top: 0px;
+    padding-bottom: 10px;
+  }
+  #imgNcap > img
+  {
+    width: 100px;
+    border-radius: 25px;
+    overflow: hidden;
+    border: 1px solid rgb(121,0,201);
+  }
+  #SilvisAdrian > p
+  {
+    display: block;
+    width: 100%;
+    float: none;
+    font-size: 16px;
+    font-family: sans-serif;
+    padding-top: 0px;
+    padding: 0px 10px;
+    text-align: center;
+    position: relative;
+    overflow-x: hidden;
+  }
+  #imgNcap2
+  {
+    display: block;
+    width: 100%;
+    overflow: hidden;
+    margin-top: 5px;
+    margin-left: 0px;
+    text-align: center;
+    font-size: 12px;
+    padding-top: 0px;
+    padding-bottom: 10px;
+  }
+  #imgNcap2 > img
+  {
+    width: 100px;
+    border-radius: 25px;
+    overflow: hidden;
+    border: 1px solid rgb(121,0,201);
+  }
+  #KielyAdam > p
+  {
+    display: block;
+    width: 100%;
+    float: none;
+    font-size: 16px;
+    font-family: sans-serif;
+    padding-top: 0px;
+    padding: 0px 10px;
+    text-align: center;
+    position: relative;
+  }
+  .pageTitle
+  {
+    color: rgb(121,0,201);
+    font-size: 25px;
+    text-align: center;
+    font-weight: bold;
+    text-transform: uppercase;
+    display: block;
+  }
+  #broshow
+  {
+    margin: auto;
+    width: 90%;
+    height: 100%;
+  }
+  #philShow
+  {
+    margin: auto;
+    width: 90%;
+    padding-bottom: 10px;
+  }
+}
+
+
+
+
+
+
+
+
+@media all and (max-width: 360px)
+{
+  #banner
+  {
+    height: 200px;
+    display: block;
+  }
+  #banner > img
+  {
+    width: 130%;
+    position: relative;
+    right: 45px;
+    bottom: 0px;
+    z-index: -1;
+  }
+  #banner > h1
+  {
+    right: 5px;
+    font-size: 25px;
+  }
+  #imgNcap
+  {
+    display: block;
+    width: 100%;
+    overflow: hidden;
+    margin-top: 5px;
+    margin-left: 0px;
+    text-align: center;
+  }
+  #imgNcap > img
+  {
+    width: 100px;
+    border-radius: 25px;
+    overflow: hidden;
+    border: 1px solid rgb(121,0,201);
+  }
+  #imgNcap2
+  {
+    display: block;
+    width: 100%;
+    overflow: hidden;
+    margin-top: 5px;
+    margin-left: 0px;
+    text-align: center;
+    padding-top: 0px;
+  }
+  #imgNcap2 > img
+  {
+    width: 100px;
+    border-radius: 25px;
+    overflow: hidden;
+    border: 1px solid rgb(121,0,201);
+  }
+  #SilvisAdrian > p,
+  #KielyAdam > p
+  {
+    display: block;
+    width: 100%;
+    float: none;
+    font-size: 15px;
+    font-family: sans-serif;
+    padding-top: 0px;
+    padding: 0px 10px;
+    text-align: center;
+    position: relative;
+    overflow-x: hidden;
+  }
+  .pageTitle
+  {
+    color: rgb(121,0,201);
+    font-size: 20px;
+    text-align: center;
+    font-weight: bold;
+    text-transform: uppercase;
+    display: block;
+  }
+  #broshow
+  {
+    margin: auto;
+    width: 100%;
+    height: 100%;
+  }
+  #philShow
+  {
+    margin: auto;
+    width: 100%;
+    padding-bottom: 10px;
+  }
+}

@@ -1,0 +1,73 @@
+<!--The content below is only a placeholder and can be replaced.-->
+<div id="container">
+  <div id="title">
+    <a href= "http://www.rutgersapd.org/" title="Home"><img id="crest" src="assets/apdCrest.png" ></a>
+    <h1 id = "APD">ALPHA PHI DELTA</h1>
+    <h2 ID= "frat">F R A T E R N I T Y</h2>
+    <div id="stars">
+      <label for="stars" class="material-icons">
+        <p>star rate</p>
+        <p>star rate</p>
+        <p>star rate</p>
+        <p>star rate</p>
+      </label>
+    </div>
+  </div>
+  <span id="chapter">Delta Beta Chapter at Rutgers University</span>
+
+  <div id="menu" >
+    <input type="checkbox" id="nav" />
+    <label for="nav" class="material-icons">dehaze</label>
+
+    <ul id="menuList">
+      <li class="menuItem">
+        <span routerLink="/">Home</span>
+      </li>
+      <li class="menuItem">
+        <span routerLink="/brotherhood">Our Brotherhood</span>
+      </li>
+      <li class="menuItem">
+        <span routerLink="/contact">Contact Us</span>
+    </ul>
+  </div>
+  <!-- <app-contact></app-contact> -->
+  <!-- <app-home>Loading...</app-home> -->
+  <!-- <app-brotherhood>Loading...</app-brotherhood> -->
+  <router-outlet (activate)="onActivate($event)"></router-outlet>
+  <link  href="http://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.css" rel="stylesheet"> <!-- 3 KB -->
+<script src="http://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.js"></script>
+
+</div>
+
+
+  <div id="footer">
+
+    <div id="footTitle">
+      <h4>Alpha Phi Delta fraternity</h4>
+      <h5>Delta Beta Chapter</h5>
+      <h6>Rutgers, The state University of New Jersey</h6>
+    </div>
+    <div id="quicklinks" style="z-index: 10;">
+      <ul>
+        <li>
+          <span routerLink="/">Home</span>
+        </li>
+        <li>
+          <span routerLink="/brotherhood">Our Brotherhood</span>
+        </li>
+        <li>
+          <span routerLink="/contact">Contact Us</span>
+        </li>
+      </ul>
+    </div>
+    <div id="social">
+      <div id="mediaIcons" >
+        <a id="footerCrest" href= "http://www.apd.org/" title="APD.ORG" target="_blank"><img src="https://upload.wikimedia.org/wikipedia/en/b/b5/Alpha_Phi_Delta_crest.png"></a>
+        <a href="https://twitter.com/ru_apd" class="fab fa-twitter" title="@ru_apd" target="_blank"></a>
+        <a href="https://www.instagram.com/ru.apd/" class="fab fa-instagram" title="@ru.apd" target="_blank"></a>
+      </div>
+      <span>#ruapd</span>
+      <span><br>Instagram: @ru.apd</span>
+      <span><br>Twitter: @ru_apd</span>
+    </div>
+  </div>

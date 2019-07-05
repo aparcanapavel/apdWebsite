@@ -1,0 +1,112 @@
+/* You can add global styles to this file, and also import other style files */
+
+body{
+  background-color: rgba(0,0,0,1);
+  height: 100%;
+  overflow-x: hidden;
+  min-width: 285px;
+}
+#hr1
+{
+  height:1px;
+  background-color: purple;
+  position: absolute;
+  width:100%;
+  top:146px;
+  left:0px;
+}
+
+
+
+
+
+
+
+@media all and (max-width: 750px)
+{
+  #hr1
+  {
+    top:123px;
+    left:0px;
+  }
+}
+
+
+
+
+
+
+
+
+
+@media all and (max-width: 630px)
+{
+  #hr1
+  {
+    height:1px;
+    background-color: purple;
+    position: absolute;
+    width:100%;
+    top:123px;
+    left:0px;
+  }
+}
+
+
+
+
+
+
+
+
+@media all and (max-width: 550px)
+{
+  #hr1
+  {
+    top:113px;
+    left:0px;
+  }
+}
+
+
+
+
+
+
+
+
+@media all and (max-width: 500px)
+{
+  #hr1
+  {
+    top:84px;
+    left:0px;
+  }
+}
+
+
+
+
+
+
+
+@media all and (max-width: 430px)
+{
+  #hr1
+  {
+    top:84px;
+    left:0px;
+  }
+}
+
+
+
+
+
+
+
+
+@media all and (max-width: 360px)
+{
+
+}

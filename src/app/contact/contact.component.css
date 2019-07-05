@@ -1,0 +1,374 @@
+*{
+  overflow: hidden;
+}
+#banner
+{
+  position: relative;
+  width: 100%;
+  height: 500px;
+  overflow: hidden;
+  z-index: -1;
+  margin-top:10px;
+  color: rgb(245,231,235);
+  /* box-shadow: 0px 0px 20px rgba(0,0,0,0.4); */
+}
+#banner > img
+{
+  width: 120%;
+  position: relative;
+  right: 50px;
+  bottom: 20px;
+  z-index: -1;
+}
+#banner > h1
+{
+  z-index:1;
+  color: white;
+  position: absolute;
+  bottom:0px;
+  right: 40px;
+  font-size: 45px;
+}
+#contacts
+{
+  width: 100%;
+  /* background-color: blue; */
+  padding-top: 50px;
+}
+#president,
+#recruiter,
+#developer
+{
+  vertical-align: top;
+  display: inline-block;
+  width: 33%;
+  font-family: sans-serif;
+  text-align: center;
+  font-size: 12px;
+}
+#president > img,
+#recruiter > img,
+#developer > img
+{
+  width: 80%;
+  border-radius: 25px;
+  border: 1px solid rgb(121,0,201);
+}
+#contacts > hr
+{
+    background-color: rgb(121,0,201);
+    height: 1px;
+    width: 90%;
+    display: none;
+}
+iframe
+{
+  position: relative;
+  display: block;
+  width: 80%;
+  padding: 30px 0px;
+  margin: auto;
+}
+
+
+
+
+
+
+
+
+
+@media all and (max-width: 830px)
+{
+  #banner
+  {
+    width: 100%;
+    /* height: 450px; */
+    overflow: hidden;
+    z-index: -1;
+    margin-top:10px;
+    color: rgb(245,231,235);
+  }
+  #banner > img
+  {
+    width: 127%;
+    position: relative;
+    right: 80px;
+    bottom: 20px;
+    z-index: -1;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+@media all and (max-width: 750px)
+{
+  #banner
+  {
+    width: 100%;
+    height: 400px;
+    overflow: hidden;
+    z-index: -1;
+    margin-top:10px;
+    color: rgb(245,231,235);
+  }
+  #banner > img
+  {
+    width: 130%;
+    position: relative;
+    right: 80px;
+    bottom: 20px;
+    z-index: -1;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+@media all and (max-width: 720px)
+{
+  #president,
+  #recruiter,
+  #developer
+  {
+    vertical-align: top;
+    display: inline-block;
+    width: 33%;
+    font-family: sans-serif;
+    text-align: center;
+  }
+}
+
+
+
+
+
+
+
+
+
+@media all and (max-width: 630px)
+{
+  #banner
+  {
+    width: 100%;
+    height: 380px;
+    margin-top:10px;
+  }
+  #banner > img
+  {
+    width: 130%;
+    position: relative;
+    right: 65px;
+    bottom: 0px;
+    z-index: -1;
+  }
+  #banner > h1
+  {
+    z-index:1;
+    color: white;
+    position: absolute;
+    font-size: 35px;
+  }
+
+}
+
+
+
+
+
+
+
+
+
+@media all and (max-width: 605px)
+{
+  #president > h1,
+  #recruiter > h1,
+  #developer > h1
+  {
+    padding: 0 11%;
+  }
+  #president,
+  #recruiter,
+  #developer
+  {
+    vertical-align: top;
+    display: inline-block;
+    width: 33%;
+    font-family: sans-serif;
+    text-align: center;
+    font-size: 10px;
+  }
+  #banner > img
+  {
+    width: 130%;
+    position: relative;
+    right: 65px;
+    bottom: 0px;
+    z-index: -1;
+  }
+}
+
+
+
+
+
+
+
+
+@media all and (max-width: 550px)
+{
+  #banner
+  {
+    height: 300px;
+    display: block;
+    margin-top: 10px;
+  }
+  #banner > img
+  {
+    width: 130%;
+    position: relative;
+    right: 60px;
+    bottom: 0px;
+    z-index: -1;
+  }
+  #banner > h1
+  {
+    bottom: 0px;
+    right: 30px;
+    font-size: 30px;
+  }
+}
+
+
+
+
+
+
+
+
+@media all and (max-width: 500px)
+{
+  #banner
+  {
+    height: 250px;
+    display: block;
+    margin-top: 10px;
+  }
+  #banner > img
+  {
+    width: 130%;
+    position: relative;
+    right: 50px;
+    bottom: 30px;
+    z-index: -1;
+  }
+  #banner > h1
+  {
+    font-size: 27px;
+  }
+  #president,
+  #recruiter,
+  #developer
+  {
+    vertical-align: top;
+    display: block;
+    width: 100%;
+    font-family: sans-serif;
+    text-align: center;
+    font-size: 12px;
+    padding-top: 20px;
+  }
+  #president > h1,
+  #recruiter > h1,
+  #developer > h1
+  {
+    padding: 0 0%;
+  }
+  #contacts > hr
+  {
+    background-color: rgb(121,0,201);
+    height: 1px;
+    width: 90%;
+    display: block;
+  }
+  #president > img,
+  #recruiter > img,
+  #developer > img
+  {
+    width: 60%;
+    border-radius: 25px;
+    border: 1px solid rgb(121,0,201);
+  }
+}
+
+
+
+
+
+
+
+
+
+@media all and (max-width: 426px)
+{
+  #banner
+  {
+    /* height: 220px; */
+    display: block;
+    margin-top: 10px;
+  }
+  #banner > img
+  {
+    width: 136%;
+    position: relative;
+    right: 45px;
+    bottom: 15px;
+    z-index: -1;
+  }
+}
+
+
+
+
+
+
+
+
+
+@media all and (max-width: 360px)
+{
+  #banner
+  {
+    height: 200px;
+    display: block;
+    margin-top: 10px;
+  }
+  #banner > img
+  {
+    width: 141%;
+    position: relative;
+    right: 50px;
+    bottom: 15px;
+    z-index: -1;
+  }
+  #banner > h1
+  {
+    right: 5px;
+    font-size: 25px;
+  }
+}

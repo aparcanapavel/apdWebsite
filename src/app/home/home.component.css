@@ -1,0 +1,709 @@
+*{
+  overflow: hidden;
+}
+#slideshow
+{
+  width: 100%;
+  /* background-color: black; */
+  background-position: center;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+  height: 580px;
+  display: block;
+  margin-top: 10px;
+  box-shadow: 0 0px 20px rgba(0,0,0,0.4);
+}
+.slide > img
+{
+  width: 100%;
+}
+#s1
+{
+  width: 110%;
+  position: relative;
+  right: 50px;
+}
+#s2
+{
+  width: 107%;
+  position: relative;
+  right: 40px;
+}
+#s3
+{
+  width: 125%;
+  position: relative;
+  right: 150px;
+}
+.pageTitle
+{
+  color: rgb(121,0,201);
+  font-size: 35px;
+  text-align: center;
+  font-weight: bold;
+  text-transform: uppercase;
+  display: block;
+}
+#quotes
+{
+  /* background-color: gray; */
+  display: block;
+  width: 100%;
+}
+#DEthan
+{
+  width: 100%;
+  overflow: hidden;
+  display: block;
+}
+#imgNcap2
+{
+  display: inline-block;
+  width: 30%;
+  overflow: hidden;
+  margin-left: 10px;
+  text-align: center;
+}
+#imgNcap2 > img
+{
+    width: 170px;
+    border-radius: 25px;
+    overflow: hidden;
+    border: 1px solid rgb(121,0,201);
+}
+#DEthan > p
+{
+  display: inline-block;
+  width: 60%;
+  float:left;
+  font-size: 18px;
+  font-family: sans-serif;
+  padding-top: 5%;
+  padding-left: 40px;
+}
+#colin2018
+{
+  padding-top: 20px;
+  width: 100%;
+  overflow: hidden;
+  display: block;
+}
+#imgNcap
+{
+  display: inline-block;
+  width: 30%;
+  overflow: hidden;
+  margin-left: 10px;
+  text-align: center;
+}
+#imgNcap > img
+{
+    width: 170px;
+    border-radius: 25px;
+    overflow: hidden;
+    border: 1px solid rgb(121,0,201);
+}
+#colin2018 > p
+{
+  display: inline-block;
+  width: 65%;
+  float:right;
+  font-size: 18px;
+  font-family: sans-serif;
+  padding-top: 5%;
+  padding-right: 5px;
+}
+.horizontalLine
+{
+    background-color: rgb(121,0,201);
+    height: 1px;
+    width: 90%;
+}
+#verticalLine
+{
+  width: 2px;
+  height: 750px;
+  background-color: rgb(121,0,201);
+  margin: auto;
+  z-index: 20;
+  position: relative;
+  left: 5%;
+  display: inline-block;
+}
+#socialMedia
+{
+  display: block;
+  /* background-color: gray; */
+  position: relative;
+  padding-top: 15px;
+  /* max-height: 750px; */
+  /* overflow: hidden; */
+}
+#ig
+{
+  width: 45%;
+  position: relative;
+  /* max-width: 45%; */
+  display: inline-block;
+  box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.4);
+  height: 725px;
+  top: 0px;
+  left: 15px;
+  vertical-align: top;
+}
+#twitter
+{
+  width: 45%;
+  /* min-width: 350px; */
+  height: auto;
+  max-height: 725px;
+  overflow-y: scroll;
+  display: inline-block;
+  float:right;
+  box-shadow: 0 0px 20px rgba(0,0,0,0.4);
+  position: relative;
+  top: 0px;
+  right: 15px;
+  vertical-align: top;
+}
+
+
+
+
+
+
+
+
+
+@media all and (max-width: 750px)
+{
+  #slideshow
+  {
+    width: 100%;
+    /* background-color: black; */
+    background-position: center;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+    height: 500px;
+    margin-top: 10px;
+    box-shadow: 0 0px 20px rgba(0,0,0,0.4);
+  }
+  .slide > img
+  {
+    width: 100%;
+  }
+  #s1
+  {
+    position: relative;
+    width: 115%;
+    right: 50px;
+  }
+  #s2
+  {
+    width: 115%;
+    position: relative;
+    right: 60px;
+  }
+  #s3
+  {
+    width: 125%;
+    position: relative;
+    top: 0px;
+    right: 100px;
+  }
+  #verticalLine
+  {
+    display: none;
+  }
+  #socialMedia
+  {
+    display: block;
+    /* background-color: gray; */
+    position: relative;
+    padding-top: 15px;
+    /* height: 1750px; */
+    /* overflow: hidden; */
+  }
+  #ig
+  {
+    width: 400px;
+    position: relative;
+    display: block;
+    box-shadow: 0px 0px 20px rgba(0,0,0,0.4);
+    height: 620px;
+    left: 0px;
+    top: 0px;
+    margin-bottom: 50px;
+    margin: auto;
+    vertical-align: top;
+  }
+  #twitter
+  {
+    width: 400px;
+    height: 620px;
+    overflow-y: scroll;
+    display:block;
+    float:none;
+    box-shadow: 0 0px 20px rgba(0,0,0,0.4);
+    position: relative;
+    right:0px;
+    vertical-align: top;
+    margin: auto;
+    margin-top: 100px;
+    margin-bottom: 20px;
+  }
+}
+
+
+
+
+
+
+
+
+
+@media all and (max-width: 630px)
+{
+  #slideshow
+  {
+    height: 450px;
+    display: block;
+    margin-top: 10px;
+    box-shadow: 0 0px 20px rgba(0,0,0,0.4);
+  }
+  .slide > img
+  {
+    width: 100%;
+  }
+  #s1
+  {
+    position: relative;
+    width: 115%;
+    right: 50px;
+  }
+  #s2
+  {
+    width: 117%;
+    position: relative;
+    right: 60px;
+  }
+  #s3
+  {
+    width: 130%;
+    position: relative;
+    top: 00px;
+    right: 100px;
+  }
+  .pageTitle
+  {
+    color: rgb(121,0,201);
+    font-size: 30px;
+    text-align: center;
+    font-weight: bold;
+    text-transform: uppercase;
+    display: block;
+  }
+  #quotes
+  {
+    /* background-color: gray; */
+    display: block;
+    width: 100%;
+  }
+  #DEthan
+  {
+    width: 100%;
+    overflow: hidden;
+    display: block;
+  }
+  #imgNcap2
+  {
+    display: inline-block;
+    width: 30%;
+    overflow: hidden;
+    margin-left: 10px;
+    text-align: center;
+    padding-top: 50px;
+    /* font size to 12 */
+    font-size: 12px;
+  }
+  #imgNcap2 > img
+  {
+    width: 100px;
+    border-radius: 25px;
+    overflow: hidden;
+    border: 1px solid rgb(121,0,201);
+  }
+  #DEthan > p
+  {
+    display: inline-block;
+    width: 60%;
+    float:left;
+    font-size: 16px;
+    font-family: sans-serif;
+    padding-top: 3%;
+    padding-left: 40px;
+  }
+  #colin2018
+  {
+    width: 100%;
+    overflow: hidden;
+    display: block;
+  }
+  #imgNcap
+  {
+    display: inline-block;
+    width: 30%;
+    overflow: hidden;
+    margin-top: 50px;
+    margin-left: 10px;
+    text-align: center;
+    font-size: 12px;
+  }
+  #imgNcap > img
+  {
+      width: 100px;
+      border-radius: 25px;
+      overflow: hidden;
+      border: 1px solid rgb(121,0,201);
+  }
+  #colin2018 > p
+  {
+    display: inline-block;
+    width: 65%;
+    float:right;
+    font-size: 16px;
+    font-family: sans-serif;
+    padding-top: 5%;
+  }
+}
+
+
+
+
+
+
+
+
+@media all and (max-width: 550px)
+{
+  #slideshow
+  {
+    height: 400px;
+    display: block;
+    margin-top: 10px;
+    box-shadow: 0 0px 20px rgba(0,0,0,0.4);
+  }
+  #s1
+  {
+    position: relative;
+    width: 115%;
+    right: 40px;
+  }
+  #s2
+  {
+    width: 117%;
+    position: relative;
+    right: 50px;
+  }
+  #colin2018 > p
+  {
+    display: inline-block;
+    width: 65%;
+    float:right;
+    font-size: 16px;
+    font-family: sans-serif;
+    padding-top: 2%;
+  }
+  #DEthan > p
+  {
+    display: inline-block;
+    width: 60%;
+    font-size: 16px;
+    padding-top: 0px;
+    padding-left: 30px;
+  }
+}
+
+
+
+
+
+
+
+@media all and (max-width: 500px)
+{
+  #slideshow
+  {
+    height: 340px;
+    display: block;
+    margin-top: 10px;
+    box-shadow: 0 0px 20px rgba(0,0,0,0.4);
+  }
+  #s3
+  {
+    width: 130%;
+    position: relative;
+    top: 00px;
+    right: 90px;
+  }
+  #quotes
+  {
+    /* background-color: gray; */
+    display: block;
+    width: 100%;
+  }
+  #imgNcap2
+  {
+    display: block;
+    width: 100%;
+    overflow: hidden;
+    margin-top: 5px;
+    margin-left: 0px;
+    text-align: center;
+    font-size: 12px;
+    padding-top: 0px;
+  }
+  #imgNcap2 > img
+  {
+    width: 100px;
+    border-radius: 25px;
+    overflow: hidden;
+    border: 1px solid rgb(121,0,201);
+  }
+  #DEthan > p
+  {
+    display: block;
+    width: 100%;
+    float: none;
+    font-size: 16px;
+    font-family: sans-serif;
+    padding-top: 0px;
+    padding-left: 0px;
+    padding: 5px 5px;
+    text-align: center;
+    position: relative;
+  }
+  #imgNcap
+  {
+    /* background-color: blue; */
+    display: block;
+    width: 100%;
+    overflow: hidden;
+    margin-top: 5px;
+    margin-left: 0px;
+    text-align: center;
+    font-size: 12px;
+  }
+  #colin2018 > p
+  {
+    /* background-color: blue; */
+    display: block;
+    width: 100%;
+    float: none;
+    font-size: 16px;
+    font-family: sans-serif;
+    padding-top: 0px;
+    padding: 5px 5px;
+    text-align: center;
+    position: relative;
+  }
+  #ig
+  {
+    width: 80%;
+    position: relative;
+    display: block;
+    box-shadow: 0px 0px 20px rgba(0,0,0,0.4);
+    /* height: 620px; */
+    left: 0px;
+    top: 0px;
+    margin-bottom: 50px;
+    margin: auto;
+    vertical-align: top;
+  }
+  #twitter
+  {
+    width: 80%;
+    height: 620px;
+    overflow-y: scroll;
+    display:block;
+    float:none;
+    box-shadow: 0 0px 20px rgba(0,0,0,0.4);
+    position: relative;
+    right:0px;
+    vertical-align: top;
+    margin: auto;
+    margin-top: 100px;
+    margin-bottom: 20px;
+  }
+}
+
+
+
+
+
+
+
+
+
+@media all and (max-width: 430px)
+{
+  #slideshow
+  {
+    height: 300px;
+    display: block;
+    margin-top: 10px;
+    box-shadow: 0 0px 20px rgba(0,0,0,0.4);
+  }
+  #s1
+  {
+    position: relative;
+    width: 118%;
+    right: 33px;
+    bottom: 3px;
+  }
+  #s2
+  {
+    width: 122%;
+    position: relative;
+    right: 50px;
+  }
+  #s3
+  {
+    width: 140%;
+    position: relative;
+    top: 00px;
+    right: 80px;
+  }
+  .pageTitle
+  {
+    color: rgb(121,0,201);
+    font-size: 20px;
+    text-align: center;
+    font-weight: bold;
+    text-transform: uppercase;
+    display: block;
+  }
+  #ig
+  {
+    width: 100%;
+    position: relative;
+    display: block;
+    box-shadow: 0px 0px 20px rgba(0,0,0,0.4);
+    /* height: 620px; */
+    left: 0px;
+    top: 0px;
+    margin-bottom: 50px;
+    margin:inherit;
+    vertical-align: top;
+  }
+  #ig > blockquote
+  {
+    width: 100%;
+  }
+  #twitter
+  {
+    width: 80%;
+    height: 620px;
+    overflow-y: scroll;
+    display:block;
+    float:none;
+    box-shadow: 0 0px 20px rgba(0,0,0,0.4);
+    position: relative;
+    right:0px;
+    vertical-align: top;
+    margin: auto;
+    margin-top: 100px;
+    margin-bottom: 20px;
+  }
+}
+
+
+
+
+
+
+
+@media all and (max-width: 360px)
+{
+  #slideshow
+  {
+    height: 270px;
+    display: block;
+    margin-top: 10px;
+    box-shadow: 0 0px 20px rgba(0,0,0,0.4);
+  }
+  #s1
+  {
+    position: relative;
+    width: 122%;
+    right: 30px;
+    bottom: 3px;
+  }
+  #s2
+  {
+    width: 130%;
+    position: relative;
+    right: 50px;
+  }
+  #s3
+  {
+    width: 150%;
+    position: relative;
+    top: 00px;
+    right: 80px;
+  }
+  #imgNcap2
+  {
+    display: block;
+    width: 100%;
+    overflow: hidden;
+    margin-top: 5px;
+    margin-left: 0px;
+    text-align: center;
+    font-size: 12px;
+    padding-top: 0px;
+  }
+  #imgNcap2 > img
+  {
+    width: 100px;
+    border-radius: 25px;
+    overflow: hidden;
+    border: 1px solid rgb(121,0,201);
+  }
+  #DEthan > p
+  {
+    display: block;
+    width: 100%;
+    float: none;
+    font-size: 15px;
+    font-family: sans-serif;
+    padding-top: 0px;
+    text-align: center;
+    position: relative;
+  }
+  #imgNcap
+  {
+    /* background-color: blue; */
+    display: block;
+    width: 100%;
+    overflow: hidden;
+    margin-top: 5px;
+    margin-left: 0px;
+    text-align: center;
+    font-size: 12px;
+  }
+  #colin2018 > p
+  {
+    /* background-color: blue; */
+    display: block;
+    width: 100%;
+    float: none;
+    font-size: 15px;
+    font-family: sans-serif;
+    padding-top: 0px;
+    text-align: center;
+    position: relative;
+  }
+}
